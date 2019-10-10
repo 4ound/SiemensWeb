@@ -1,7 +1,7 @@
 from flask import Flask, session, redirect, request, render_template, abort, url_for
 import algo
 import os
-
+#
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
